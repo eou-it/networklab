@@ -27,4 +27,4 @@ Temporary Items
 .apdisk
 
 # Rendered Markdown->HTML documents
-.html
+*.html
