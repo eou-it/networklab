@@ -12,8 +12,9 @@ When completed with this lab, you will have accomplished the following basic rou
 
 ## Configuration
 
+
 | Firewall | Subnet | Gateway Address | Firewall Address |
-| === | === | === | === |
+| --- | --- | --- | --- |
 | lab-fw-1 | 192.168.7.152/30 | 192.168.7.153 | 192.168.7.154 |
 | lab-fw-2 | 172.30.44.144/30 | 172.30.44.145 | 172.30.44.146 |
 | lab-fw-3 | 172.16.254.20/30 | 172.16.254.21 | 172.16.254.22 |
