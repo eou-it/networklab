@@ -333,8 +333,21 @@ security {
                 }
             } 
         }
+        from-zone lab-vpn to-zone lab-vpn {
+            policy lab-vpn-to-lab-vpn {
+                match {
+                    source-address any;
+                    destination-address any;
+                    application any;
+                }
+                then {
+                    permit;
+                }
+            }
+        }
         from-zone trust to-zone lab-vpn {
-            policy lab-vpn-to-trust {
+            delete: policy lab-vpn-to-trust;
+            policy trust-to-lab-vpn {
                 match {
                     source-address any;
                     destination-address any;
