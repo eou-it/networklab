@@ -276,8 +276,8 @@ set routing-options static route 10.0.12.0/30 next-hop st0.3
 set routing-options static route 10.1.0.0/16 next-hop st0.1
 set routing-options static route 10.2.0.0/16 next-hop st0.1
 set routing-options static route 10.4.0.0/16 next-hop st0.3
-activate security zones security-zone lab-vpn interfaces st0.0
-activate security zones security-zone lab-vpn interfaces st0.2
+activate security zones security-zone lab-vpn interfaces st0.1
+activate security zones security-zone lab-vpn interfaces st0.3
 activate security ipsec vpn lab-fw-2
 activate security ipsec vpn lab-fw-4
 ```
