@@ -10,7 +10,11 @@ When completed with this lab, you will have accomplished the following basic rou
   * Observe ARP information of devices connected to the firewall
   * PING and TRACEROUTE from each firewall to any/all of the private addresses
 
+
 ## Configuration
+
+### Lab 6 Topology Diagram
+![Topology Diagram](diagram/lab6-topology_min.svg)
 
 ### Firewall Addresses
 | Firewall | VPN Endpoint IP |
