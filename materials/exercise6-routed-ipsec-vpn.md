@@ -212,6 +212,7 @@ security {
             }
         }
     }
+}
 ```
 
 ### Configure IP addresses on the newly created interfaces and set static routes for the networks on the other end of the VPN tunnels, activate VPN configuration for the appropriate tunnels
