@@ -6,6 +6,8 @@ This collection of lab exercises is meant to introduce basic network configurati
 * [Lab Exercise 2 - Inter-VLAN Routing](materials/exercise2-inter-vlan-routing.md)
 * [Lab Exercise 3 - Static Routing](materials/exercise3-static-routing.md)
 * [Lab Exercise 4 - Dynamic Routing with OSPF](materials/exercise4-dynamic-routing-ospf.md)
+* [Lab Exercise 5 - Firewalls](materials/exercise5-firewalls.md)
+* [Lab Exercise 6 - (Static) Routed IPSEC VPN](materials/exercise6-routed-ipsec-vpn.md)
 
 
 Tech:
