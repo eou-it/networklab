@@ -8,7 +8,7 @@ This collection of lab exercises is meant to introduce basic network configurati
 * [Lab Exercise 4 - Dynamic Routing with OSPF](materials/exercise4-dynamic-routing-ospf.md)
 * [Lab Exercise 5 - Firewalls](materials/exercise5-firewalls.md)
 * [Lab Exercise 6 - (Static) Routed IPSEC VPN](materials/exercise6-routed-ipsec-vpn.md)
-
+* [Lab Exercise 7 - Dynamic Routed IPSEC VPN](materials/exercise7-dynamic-routed-ipsec-vpn.md)
 
 Tech:
 * Juniper devices used in these labs are SRX300 Firewalls and EX4100-F-12T Ethernet Switches.

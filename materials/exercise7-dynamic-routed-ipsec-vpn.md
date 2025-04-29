@@ -1,4 +1,4 @@
-# Lab Exercise 6 - (Static) Routed IPSEC VPN
+# Lab Exercise 7 - (Dynamic) Routed IPSEC VPN
 
 ## Outcomes
 
