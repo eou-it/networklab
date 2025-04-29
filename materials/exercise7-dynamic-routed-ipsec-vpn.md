@@ -87,13 +87,13 @@ labuser@lab-fw-1# activate security ipsec vpn lab-fw-3
 labuser@lab-fw-1# activate security ipsec vpn lab-fw-4
 
 {master:0}[edit]
-labuser@lab-fw-1# activate security zones security-zone lab-vpn interface st0.1
+labuser@lab-fw-1# activate security zones security-zone lab-vpn interfaces st0.1
 
 {master:0}[edit]
-labuser@lab-fw-1# activate security zones security-zone lab-vpn interface st0.2
+labuser@lab-fw-1# activate security zones security-zone lab-vpn interfaces st0.2
 
 {master:0}[edit]
-labuser@lab-fw-1# activate security zones security-zone lab-vpn interface st0.3
+labuser@lab-fw-1# activate security zones security-zone lab-vpn interfaces st0.3
 
 {master:0}[edit]
 labuser@lab-fw-1# set interfaces st0.2 family inet address 10.0.13.1/30
@@ -175,13 +175,13 @@ labuser@lab-fw-2# activate security ipsec vpn lab-fw-3
 labuser@lab-fw-2# activate security ipsec vpn lab-fw-4
 
 {master:0}[edit]
-labuser@lab-fw-2# activate security zones security-zone lab-vpn interface st0.0
+labuser@lab-fw-2# activate security zones security-zone lab-vpn interfaces st0.0
 
 {master:0}[edit]
-labuser@lab-fw-2# activate security zones security-zone lab-vpn interface st0.2
+labuser@lab-fw-2# activate security zones security-zone lab-vpn interfaces st0.2
 
 {master:0}[edit]
-labuser@lab-fw-2# activate security zones security-zone lab-vpn interface st0.3
+labuser@lab-fw-2# activate security zones security-zone lab-vpn interfaces st0.3
 
 {master:0}[edit]
 labuser@lab-fw-2# set interfaces st0.3 family inet address 10.0.24.1/30
@@ -260,13 +260,13 @@ labuser@lab-fw-3# activate security ipsec vpn lab-fw-2
 labuser@lab-fw-3# activate security ipsec vpn lab-fw-4
 
 {master:0}[edit]
-labuser@lab-fw-3# activate security zones security-zone lab-vpn interface st0.0
+labuser@lab-fw-3# activate security zones security-zone lab-vpn interfaces st0.0
 
 {master:0}[edit]
-labuser@lab-fw-3# activate security zones security-zone lab-vpn interface st0.1
+labuser@lab-fw-3# activate security zones security-zone lab-vpn interfaces st0.1
 
 {master:0}[edit]
-labuser@lab-fw-3# activate security zones security-zone lab-vpn interface st0.3
+labuser@lab-fw-3# activate security zones security-zone lab-vpn interfaces st0.3
 
 {master:0}[edit]
 labuser@lab-fw-3# set interfaces st0.0 family inet address 10.0.13.2/30
@@ -348,13 +348,13 @@ labuser@lab-fw-4# activate security ipsec vpn lab-fw-2
 labuser@lab-fw-4# activate security ipsec vpn lab-fw-3
 
 {master:0}[edit]
-labuser@lab-fw-4# activate security zones security-zone lab-vpn interface st0.0
+labuser@lab-fw-4# activate security zones security-zone lab-vpn interfaces st0.0
 
 {master:0}[edit]
-labuser@lab-fw-4# activate security zones security-zone lab-vpn interface st0.1
+labuser@lab-fw-4# activate security zones security-zone lab-vpn interfaces st0.1
 
 {master:0}[edit]
-labuser@lab-fw-4# activate security zones security-zone lab-vpn interface st0.2
+labuser@lab-fw-4# activate security zones security-zone lab-vpn interfaces st0.2
 
 {master:0}[edit]
 labuser@lab-fw-4# set interfaces st0.0 family inet address 10.0.14.2/30
