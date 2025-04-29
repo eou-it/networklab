@@ -210,7 +210,7 @@ labuser@lab-sw-4>
 
 ## Verification
 
-* Check that the new layer 3 interfaces are either up up (administratively up, and link up) or up down (administratively up, and link down) 
+* Check that the new layer 3 interfaces are either up up (administratively up, and link up) or up down (administratively up, and link down)
 * Check that the routing table has entries for the IP addresses and subnets
 * Check the ARP table of the switch
 

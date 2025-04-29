@@ -319,7 +319,7 @@ security {
                 then {
                     permit;
                 }
-            } 
+            }
         }
         from-zone lab-vpn to-zone trust {
             policy lab-vpn-to-trust {
@@ -331,7 +331,7 @@ security {
                 then {
                     permit;
                 }
-            } 
+            }
         }
         from-zone lab-vpn to-zone lab-vpn {
             policy lab-vpn-to-lab-vpn {
